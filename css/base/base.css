@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+  
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1080px) {
+  body {
+    background-color: var(--color-bg-tablet);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: var(--color-bg-mobile);
+  }
+}

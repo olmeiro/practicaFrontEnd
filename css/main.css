@@ -1,0 +1,9 @@
+/* Base config */
+@import "base/variables.css";
+@import "base/base.css";
+
+/* Components */
+@import "components/Header/Header.css";
+@import "components/FeaturedSlider/FeaturedSlider.css";
+@import "components/NewsFeed/NewsFeed.css";
+@import "components/Footer/Footer.css";
